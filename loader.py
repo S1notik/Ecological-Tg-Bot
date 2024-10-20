@@ -3,7 +3,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 
 from data import config
 
-
+print(config.token)
 bot = Bot(token=config.token, parse_mode='HTML')
 
 storage = MemoryStorage()
